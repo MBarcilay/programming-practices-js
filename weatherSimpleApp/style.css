@@ -1,0 +1,67 @@
+html {
+
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+}
+
+.weather__icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather__icon img {
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    animation: infinite 5s bluring;
+    border-radius: 50%;
+}
+
+@keyframes bluring {
+    0% {
+        filter: blur(1px);
+    }
+    50% {
+        filter: blur(0);
+        box-shadow: .5rem .5rem 1rem #ffbe00;
+    }
+    100% {
+        filter: blur(1px);
+    }
+}
+
+.weather__description {
+    
+}
+
+.weather__temperature {
+
+}
+
+.weather__location {
+
+}
