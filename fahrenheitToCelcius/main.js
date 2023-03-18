@@ -1,7 +1,8 @@
 //fahrenheit to celcius
 function fahrenheitToCelcius(fahrenheit) {
 
-    let celciusConverted = 0;
+    var celciusConverted = 0;
+    fahrenheit = document.getElementById("fahrenheit").value;
 
     celciusConverted = parseFloat((fahrenheit - 32) * 5 / 9);
     console.log(celciusConverted);
@@ -12,7 +13,8 @@ function fahrenheitToCelcius(fahrenheit) {
 //celcius to fahrenheit
 function celciusToFahrenheit(celcius) {
 
-    let fahrenheitConverted = 0;
+    var fahrenheitConverted = 0;
+    celcius = document.getElementById("celcius").value;
 
     fahrenheitConverted = parseFloat(celcius * 9 / 5 + 32);
     console.log(fahrenheitConverted);
