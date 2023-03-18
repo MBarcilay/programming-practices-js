@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Fahrenheit - Celcius</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="fahrenheit-celcius">
+            <h2>From Fahrenheit to Celcius</h2>
+            <input type="number" id="fahrenheit" placeholder="Fahrenheit">
+            <button id="btn-ftc" onclick="fahrenheitToCelcius(fahrenheit)">Convert</button>
+        </div>
+        
+        <div class="celcius-fahrenheit">
+            <h2>From Celcius to Fahrenheit</h2>
+            <input type="number" id="celcius" placeholder="Celcius">
+            <button id="btn-ctf" onclick="celciusToFahrenheit(celcius)">Convert</button>
+        </div>
+
+        <div class="result">
+            <h3>Result:</h3>
+            <p id="result">
+
+            </p>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
