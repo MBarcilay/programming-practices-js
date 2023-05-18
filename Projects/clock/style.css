@@ -1,0 +1,51 @@
+body {
+    background-color: #9f9f9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    background-color: #000;
+    border: #fff solid 10px;
+    border-radius: 5%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+.clock {
+    font-weight: bold;
+    font-size: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cyan;
+    text-shadow: 0 0 5px cyan;
+}
+
+.date {
+    font-weight: lighter;
+    font-size: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cyan;
+    text-shadow: 0 0 5px cyan;
+}
+
+.base-reloj {
+    background-color: #fff;
+    height: 5vh;
+    width: 10vh;
+}
+
+.base-reloj2 {
+    background-color: #fff;
+    height: 5vh;
+    width: 50vh;
+}
