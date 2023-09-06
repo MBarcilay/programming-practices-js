@@ -1,0 +1,60 @@
+/* CSS code for responsive layout */
+.container {
+    padding: 1rem;
+}
+
+.error {
+  text-align: center;
+}
+
+.error__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error__subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.error__description {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.error__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.error__button:hover {
+  background-color: #333;
+}
+
+/* Custom color palette */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.error__button {
+  background-color: #ff5f5f;
+}
+
+.error__button:hover {
+  background-color: #ff4040;
+}
